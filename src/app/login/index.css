@@ -1,0 +1,21 @@
+h3{
+    font-family:sans-sarif;
+  }
+  
+  .sec{
+    width: 50rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+  }
+
+ 
+  .row {
+    min-height: 100vh;
+    align-items: center;
+  }
+  
+  
+  

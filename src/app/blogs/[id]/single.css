@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    width: 92vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.image{
+    width: 70%;
+    height: 75%;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.second_part{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.author{
+    display: flex;
+    padding: 10px;
+}
+.name{
+    font-size: medium;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+.update{
+    display: flex;
+}
+
+.third_part{
+    width: 68%;
+    margin-top: 10px;
+}
+
+.desc{
+    margin-left: 7px;
+}
