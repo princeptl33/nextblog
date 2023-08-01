@@ -13,7 +13,7 @@ const Page = () => {
  
 
   const fetchblogs = async () => {
-    const res = await fetch("api/blog/getallblog");
+    const res = await fetch(`http://localhost:3000/api/blog/getallblog`);
 
     const data = await res.json();
     const title = data.getallblog[0].likes;
